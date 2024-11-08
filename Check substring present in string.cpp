@@ -5,7 +5,7 @@ int main() {
     char str[100], substr[100];
 
     // Input the main string
-    printf("Enter the main string: ");
+    printf("Enter the main string");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';  // Remove newline character if present
 
